@@ -1,0 +1,590 @@
+
+.dropdown-item{
+    cursor:pointer;
+}
+.background{
+    position: absolute;
+    top: 0px;
+    
+}
+
+.row{
+    margin:auto !important;
+}
+.col-xl-12,.col-xs-12{
+    padding-right:0px !important;
+    padding-left:0px !important;
+}
+
+
+.ContainerPack{
+    width: 100%;
+    overflow: auto;
+    margin-top:-60px;
+}
+
+.leftContainer{
+    margin-bottom: 30px;
+    float:left;
+    width:48% !important;
+}
+.rightContainer{
+    float:right;
+    width:48% !important;
+}
+.InstaWidth{
+    width: 40% !important;
+}
+.banner{
+    bottom: 0px;
+    left: 0px;
+    width:100%;
+    height: 150px;
+    background-color: rgba(0, 0, 0, 0.6);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
+    padding:20px;
+    color: white;
+    font-family: DFLWeb,Arial,sans-serif;
+    font-weight: 300;
+    font-size: 16px; 
+}
+
+.banner:hover p{
+    text-decoration:none !important;
+}
+
+.content-article{
+    min-height: 500px;
+}
+.imgDiv{
+    display:block;
+    
+   
+   width:100%;
+   height:auto;
+    float:right;
+    position: relative;
+    margin-bottom: 20px;
+    z-index: 4;
+}
+.imgDiv img{
+    width: 100%;
+
+    z-index: 5;
+}
+.opacityDiv{
+    top:0px;
+    width:100%;
+    background-color: white;
+    opacity: 0;
+    -webkit-transition: opacity 2s;
+    transition: opacity 0.2s ease-out;
+}
+.opacityDiv:hover{
+    opacity: 0.1;
+}
+.regularPic{
+    position: absolute;
+    top:0px;
+    z-index: -1;
+}
+.tournamentPic{
+    position: absolute;
+    top: -170px;
+    z-index: -1;
+}
+/* 
+.paddingShift{
+    padding:0px 10px !important;
+} */
+.nav-link {
+    padding: 20px 0.5vw !important; 
+    margin-right:0px !important;
+    margin-left: 0px !important;
+    padding-right: 1vw !important;
+    padding-left: 1vw !important;
+}
+
+header{
+    position: relative;
+    z-index: 10;
+    background-color: transparent;
+    position: relative;
+
+}
+
+.eventbarContainer{
+    margin-bottom: 20px;
+}
+.homeItem{
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: rgba(255, 255, 255, 0.2);
+    border-radius: 0px;
+}
+.logo img{
+    max-width: 15%;
+    margin:10px;
+}
+.theHeader{
+    position: relative;
+    margin: auto;
+    width:65%;
+    z-index: 10;
+    box-shadow: 0 4px 49px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+
+.theHeader:after{
+
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+	left: 0px;
+	top: 100%;
+	border-width: 10px 11px;
+	border-style: solid;
+	border-color: #142b53 #142b53 transparent transparent;
+
+}
+
+.theHeader:before{
+    content: ' ';
+	position: absolute;
+	width: 35px;
+	height: 0;
+	left: -178px;
+	top: 12px;
+	border-width: 40px 100px;
+	border-style: solid;
+    border-color: #22437c #22437c #22437c transparent;
+    
+    
+}
+
+.navbar:after{
+
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+	right: 0px;
+	top: 100%;
+	border-width: 10px 11px;
+	border-style: solid;
+	border-color: #142b53 transparent transparent #142b53  ;
+
+}
+
+.navbar:before{
+    content: ' ';
+	position: absolute;
+	width: 35px;
+	height: 0;
+	right: -178px;
+	top: 12px;
+	border-width: 40px 100px;
+	border-style: solid;
+    border-color: #22437c transparent #22437c #22437c ;
+    z-index: -10;
+}
+
+
+
+.navbarEN{
+    border-radius: none;
+    margin: auto;
+}
+.navbarEN ul{
+    margin: 0 auto;
+    
+}
+.content {
+    padding: 16px;
+  }
+  
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky + .content {
+    padding-top: 102px;
+  }
+
+.rotate180{ 
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+.GreenButton{
+    border:none;
+    border-radius: 5px;
+    zoom: 1;
+    padding: 4px 12px;
+  margin: 0;
+  cursor: pointer;
+  border: 1px solid #bbb;
+  overflow: visible;
+  font: bold 13px arial, helvetica, sans-serif;
+  text-decoration: none;
+  white-space: nowrap;
+  color: #555;
+  
+  background-color: #ddd;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,1)), to(rgba(255,255,255,0)));
+  background-image: -webkit-linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,0));
+  background-image: -moz-linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,0));
+  background-image: -ms-linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,0));
+  background-image: -o-linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,0));
+  background-image: linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,0));
+  
+  -webkit-transition: background-color .2s ease-out;
+  -moz-transition: background-color .2s ease-out;
+  -ms-transition: background-color .2s ease-out;
+  -o-transition: background-color .2s ease-out;
+  transition: background-color .2s ease-out;
+  background-clip: padding-box; /* Fix bleeding */
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, .3), 0 2px 2px -1px rgba(0, 0, 0, .5), 0 1px 0 rgba(255, 255, 255, .3) inset;
+  -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, .3), 0 2px 2px -1px rgba(0, 0, 0, .5), 0 1px 0 rgba(255, 255, 255, .3) inset;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, .3), 0 2px 2px -1px rgba(0, 0, 0, .5), 0 1px 0 rgba(255, 255, 255, .3) inset;
+  text-shadow: 0 1px 0 rgba(255,255,255, .9);
+  
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: #fff;
+  text-shadow: 0 1px 0 rgba(0,0,0,.2);
+  
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,.3)), to(rgba(255,255,255,0)));
+  background-image: -webkit-linear-gradient(top, rgba(255,255,255,.3), rgba(255,255,255,0));
+  background-image: -moz-linear-gradient(top, rgba(255,255,255,.3), rgba(255,255,255,0));
+  background-image: -ms-linear-gradient(top, rgba(255,255,255,.3), rgba(255,255,255,0));
+  background-image: -o-linear-gradient(top, rgba(255,255,255,.3), rgba(255,255,255,0));
+  background-image: linear-gradient(top, rgba(255,255,255,.3), rgba(255,255,255,0));
+  background-color: #57a957;
+  border-color: #57a957;
+}
+
+.GameBar{
+    float: left;
+    margin-right: 10px;
+    padding: 6px 20px;
+}
+
+.GameBarDiv{
+    overflow:auto;
+    margin: 10px;
+}
+
+.updateButton{
+    float:left;
+}
+
+.teams, .match-score, .date, .arena, .summary, .match-events{
+    cursor: auto;
+}
+
+.CurrentGameDiv{
+    display: block;
+    margin-bottom: 0px;
+    text-align: center;
+    overflow:auto;
+}
+
+.NextGameDiv{
+    position: relative;
+    z-index: 3;
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.NextGameDiv p{
+    margin-bottom: 4px;
+}
+
+.gameDivLeftP{
+    padding: 9px;
+    float:left;
+    text-align:left;
+     width:45%; 
+     background: linear-gradient(to right , rgba(255,255,255,0), #fff);
+     padding-left: 20px;
+     
+     
+}
+
+.gameDivRightP{
+    padding: 9px;
+    float:right;
+    width:45%; 
+    text-align:right;
+    background-image:linear-gradient(to left , rgba(255,255,255,0),#fff);
+    padding-right: 20px;
+
+}
+
+
+
+#RedClock{
+    position: relative;
+    background: transparent;
+    text-align: center;
+}
+
+#RedClock img{
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+.GrayGameDiv{
+    overflow: hidden;
+    position: relative;
+    width:100%;
+    background: #bbb;
+    padding-bottom: 3px;
+    -moz-box-shadow:    inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow:         inset 40 150 10px #000000;
+}
+.redRibbon{
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 8;
+    width: 355px;
+    height: 100%;
+    background: #ed220c;
+    margin:auto;
+    text-align: none;
+    box-shadow: 0 4px 49px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.redRibbon2{
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 8;
+    width: 100px;
+    height: 100%;
+    background: #ed220c;
+    margin:auto;
+    text-align: none;
+    box-shadow: 0 4px 49px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    visibility: hidden;
+}
+.redTriangle{
+    position:relative;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 100px 177.5px 0 177.5px;
+    border-color: #ed220c transparent transparent transparent;
+    margin: auto;
+    z-index: 6;
+}
+
+#VS{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 48px;
+    color: white;
+}
+
+.mainLogo{
+    background: transparent;
+    text-align: center;
+
+}
+
+.leftofClock{
+    width: 30%;
+    display: inline-block;
+    text-align: right;
+    margin-right: 1vw;
+    
+}
+.leftofClock img{
+    
+    margin-left: 0px !important;
+    margin-right: 0.8vw  !important;
+}
+
+.rightofClock{
+    width: 30%;
+    display: inline-block;
+    text-align: left;
+    margin-left: 1.5vw;
+
+}
+
+.backLight{
+    position: absolute;
+    width: 500px;
+    left: 0; 
+    right: 0;
+    top:-50px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#clockBackground{
+    position: absolute;
+    left: 0; 
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#backgroundImg{
+    position:fixed;
+    top:-400px;
+    z-index: -12;
+}
+
+.leftGray{
+    float: left;
+}
+
+.FoldedGray{
+    height: 40px;
+}
+
+.FoldedTriangle{
+    position: relative;
+    z-index: 5;
+    margin-top: -60px;
+    margin-bottom: 10px;
+}
+
+
+@media only screen and (max-width: 1100px) {
+    .leftofClock{
+        display: none !important;
+    }
+    .rightofClock{
+        display: none !important;
+    }
+  }
+
+  .TableContianer{
+     width: 100%;
+  }
+
+  .hundredpercent{
+      min-width: 100%;
+  }
+
+  
+@media (max-width: 992px) {
+   
+    .navbar:before{
+        display: none ;
+    }
+    .navbar:after{
+        display: none ;
+
+    }
+  
+    .theHeader:before{
+        display: none ;
+
+    }
+    .theHeader:after{
+        display: none;
+        
+    }
+
+    .redRibbon{
+        width: 100px;
+    }
+    .redTriangle{
+    border-width: 40px 50px 0 50px;
+        
+    }
+   
+    .GrayGameDiv{
+        width:70%;
+        margin: auto;
+    }
+
+    .ContainerPack{
+        margin-top: -10px
+    }
+    .NextGameDiv{
+        font-size: 12px;
+    }
+    #backgroundImg{
+        margin-top: 0px;
+    }
+    
+    /*.theHeader{
+        border-radius:5px !important;
+    }
+    .navbar{
+        border-radius:5px !important;
+    }*/
+    
+    .labels li{
+        width: 73px !important;
+    }
+  }
+  
+  
+
+  @media (max-width: 768px) {
+
+    .redribbon{
+        /* display: none; */
+        width: 75px;
+    }
+    .redTriangle{
+        border-width: 40px 37.5px 0 37.5px;   
+        }
+    
+    .countdown:after{
+        display: none;
+    }
+    .countdown:before{
+        display: none;
+    }
+    .countdown2:after{
+        display: none;
+    }
+    .countdown2:before{
+        display: none;
+    }
+   
+    #backgroundImg{
+        margin-top: 360px;
+    }
+  }
+
+  @media (max-width: 500px) {
+
+    .GrayGameDiv{
+        width: 90%;
+        }
+        .theHeader{
+            width: 355px;
+        }
+    }
+

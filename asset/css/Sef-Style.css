@@ -1,0 +1,42 @@
+.btn-default{
+    border: 1px solid #68af1e;
+    color: #68af1e;
+}
+.btn-default:hover{
+    color: #FFFFFF;
+}
+
+.btn.focus, .btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(181, 233, 50, 0.25);
+}
+
+.matcher h2.title {
+    background: #287823;
+}
+
+.matcher nav div.active {
+    background-color: #287823;
+    cursor: default;
+}
+
+.matcher nav div {
+    background-color: #68af1e;
+}
+
+.select-teams h6{
+    color: #287823;
+}
+
+.box-header h2, .campaign-intro a, .campaign-intro strong, .teams-campaign .info-matcher h6{
+    color: #287823;
+}
+
+@media (max-width: 576px){
+    button:not(.previous-next-button) {
+        display: block;
+    }
+    .match-navigation button {
+      display: inline-block;
+    }
+  }

@@ -1,0 +1,56 @@
+CREATE TABLE teams (
+	cid int(11) not null AUTO_INCREMENT PRIMARY KEY,
+    team varchar(128) not null,
+    M int(11) DEFAULT 0,
+    V int(11) DEFAULT 0,
+    O int(11) DEFAULT 0,
+    F int(11) DEFAULT 0,
+    GM int(11) DEFAULT 0,
+    IM int(11) DEFAULT 0,
+    Diff int(11) DEFAULT 0,
+    P int(11) DEFAULT 0,
+    league int(11) not null
+);
+
+CREATE TABLE games (
+	cid int(11) not null AUTO_INCREMENT PRIMARY KEY,
+    round int(11) not null,
+    date datetime default null,
+    team1 varchar(128) not null,
+    team2 varchar(128) not null,
+    score1 int(11),
+    score2 int(11)
+);
+CREATE TABLE players (
+	id int(11) not null AUTO_INCREMENT PRIMARY KEY,
+    nummer int(11),
+    spelare varchar(128) not null,
+    program varchar(128) not null,
+    team varchar(128) not null
+);
+
+CREATE TABLE img (
+	id int(11) not null AUTO_INCREMENT PRIMARY KEY,
+    img varchar(128) not null,
+    team varchar(128) not null
+);
+
+CREATE TABLE leagues (
+	id int(11) not null AUTO_INCREMENT PRIMARY KEY,
+    league_name varchar(128) not null
+);
+
+<div class="leftContainer">
+        <eventbar _ngcontent-sc50="" _nghost-sc18="">
+        <div style="margin-bottom:10px; " _ngcontent-sc18="" class="eventbar ng-star-inserted"><a _ngcontent-sc18="" target="_blank" href="http://www.tagheuer.com/?utm_medium=display&amp;amp;utm_campaign=Bundesliga_Countdown&amp;amp;utm_source=Bundeliga&amp;amp;utm_content=Countdown">
+        <!--<img _ngcontent-sc18="" class="float-left" src="_/asset/no.seeds.app.sef_1540574971/img/logo.png">-->
+        </a><a _ngcontent-sc18="" target="_blank" href="http://www.tagheuer.com/?utm_medium=display&amp;amp;utm_campaign=Bundesliga_Countdown&amp;amp;utm_source=Bundeliga&amp;amp;utm_content=Countdown">
+       <!--<img _ngcontent-sc18="" class="float-right" src="_/asset/no.seeds.app.sef_1540574971/img/logo.png">-->
+        </a><div _ngcontent-sc18="" class="countdownTimer ng-star-inserted"><span _ngcontent-sc18="" class="next ng-star-inserted">Nästa match om
+
+    </span><div _ngcontent-sc18="" class="countdownTimerDate"><span _ngcontent-sc18="" class="countdown_container">
+    <span _ngcontent-sc18="" class="value"><a id="Days"></a></span><span _ngcontent-sc18="" class="unit">D</span></span><span _ngcontent-sc18="" class="countdown_container">
+    <span _ngcontent-sc18="" class="value"><a id="Hours"></a></span><span _ngcontent-sc18="" class="unit">T</span></span><span _ngcontent-sc18="" class="countdown_container">
+    <span _ngcontent-sc18="" class="value"><a id="Minutes"></a></span><span _ngcontent-sc18="" class="unit">M</span></span><span _ngcontent-sc18="" class="countdown_container">
+    <span _ngcontent-sc18="" class="value"><a id="Seconds"></a></span><span _ngcontent-sc18="" class="unit">S</span></span></div></div></div></eventbar>
+    </div>
